@@ -1,0 +1,51 @@
+/* 
+  Style your elements by creating CSS classes here.
+  Below, you can see an example of a class called "menu" that changes the color of the text to blue. Modify according to your needs.
+*/
+
+
+body {
+  color: black;
+}
+#rounded-image {
+  border-radius: 10%;
+  object-fit:cover;
+  width:86%;
+  height:96%;
+  display:block;
+  margin:auto
+}
+#orange-cursive {
+  margin:0px;
+  color:orange;
+  font-size:180%;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+#subtitle {
+  color:gray;
+  font-size:130%;
+}
+#add-button {
+  height:24px;
+  font-size:12px;
+  line-height:10px;
+  white-space:nowrap;
+  border-radius:40px;
+  background-color:rgb(233, 233, 233);
+  box-shadow:2px 4px 3px 0px rgba(0, 0, 0, 0.404);
+}
+#menu-entry {
+  padding-bottom:5%
+}
+#logo-info {
+  height:105%;
+  padding:5%;
+}
+#logo {
+  width: 80%;
+  padding: 5%
+}
+#credits-row {
+  padding:5%;
+  font-size: 80%;
+}
