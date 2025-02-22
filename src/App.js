@@ -121,8 +121,6 @@ function App() {
 
     alert(output);
 
-    reset();
-
   }
 
   useEffect(() => {
