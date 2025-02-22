@@ -3,7 +3,6 @@
   Below, you can see an example of a class called "menu" that changes the color of the text to blue. Modify according to your needs.
 */
 
-
 body {
   color: black;
 }
@@ -25,7 +24,7 @@ body {
   color:gray;
   font-size:130%;
 }
-#add-button {
+#summary-button {
   height:24px;
   font-size:12px;
   line-height:10px;
@@ -33,6 +32,10 @@ body {
   border-radius:40px;
   background-color:rgb(233, 233, 233);
   box-shadow:2px 4px 3px 0px rgba(0, 0, 0, 0.404);
+}
+#order-block {
+  padding:5%;
+  padding-bottom:15%;
 }
 #menu-entry {
   padding-bottom:5%
@@ -45,7 +48,9 @@ body {
   width: 80%;
   padding: 5%
 }
-#credits-row {
-  padding:5%;
-  font-size: 80%;
+#add-button {
+  width: 18px;
+  height: 18px;
+  font-size: 16px;
+  line-height: 1;
 }

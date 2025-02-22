@@ -158,8 +158,8 @@ function App() {
                 id={item.id}
             />
         ))}
+        <OrderSummary totalSum={totalSum} reset={reset} order={order} />
       </div>
-      <OrderSummary totalSum={totalSum} reset={reset} order={order} />
     </div>
   );
 }

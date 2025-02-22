@@ -35,12 +35,12 @@ function MenuLine ({title, content, image_path, price, count, setCount, id}) {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-3"></div>
-                    <div className="col-9">
+                    <div className="col-6"></div>
+                    <div className="col-6">
                         {/* <div className="text-center"> */}
-                            <button type="button" className="btn" id='add-button' onClick={protectedDecrement}><b>-</b></button>
-                            &nbsp;&nbsp;{count}&nbsp;
-                            <button type="button" className="btn" id='add-button' onClick={() => (setCount(id, count + 1))}><b>+</b></button>
+                            <button type="button" class="btn btn-outline-dark rounded-circle p-0" id='add-button' onClick={protectedDecrement}><b>-</b></button>
+                            &nbsp;&nbsp;{count}&nbsp;&nbsp;
+                            <button type="button" class="btn btn-outline-dark rounded-circle p-0" id='add-button' onClick={() => (setCount(id, count + 1))}><b>+</b></button>
                         {/* </div> */}
                     </div>
                 </div>
